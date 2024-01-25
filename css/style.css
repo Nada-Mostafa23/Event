@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+:root{
+    scroll-behavior: auto;
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(#fa181883, #fa43158e), url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header .home-content  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+.home-content h1{
+    font-size: 70px;
+}
+header .open{
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+.slider i:hover,.slider ul li a:hover{
+    color: #D62E33 !important;
+}
+header .slider {
+    left: 0;
+    background-color: rgb(27, 26, 24);
+    height: 100vh;
+    width: 22%;
+}
+header .slider i{
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.slider ul li a{
+    transition: all 0.5s;
+}
+header .slider li{
+    padding: 35px 15px 20px 20px;
+}
+.duration {
+    margin: 10% auto !important;
+    cursor: pointer;
+}
+.duration h3{
+    background-color: #E68285;
+    color: #fff;
+    padding: 15px 0;
+    margin: 0;
+}
+.duration p {
+    background-color: #ccc;
+    padding: 2%;
+    margin: 0;
+    display: none;
+}
+
+.details{
+    background-image:linear-gradient(#771111a1, #631111a6), url(../images/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+.details .counter{
+    margin: 8% auto;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+
+}
+.details .timer{
+    padding: 20%;
+    font-size: 30px;
+    font-weight: 700;
+}
+.contact{
+    padding: 8% 0;
+    font-size: 17px;
+}
+.contact .social{
+    color: #777;
+    margin-top: 12% ;
+}
+.contact .social i:hover{
+    background-color: #D62E33;
+    color: #fff;
+    border: none;
+}
+.contact .social i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 1s;
+}
